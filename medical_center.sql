@@ -62,7 +62,3 @@ VALUES
     (3, 2, 2);
 
 
--- see all doctor/patient names with disease
- 
--- SELECT doctor_last, patient_first, disease FROM doctor_patient JOIN patients ON  doctor_patient.patient_id = patients.id JOIN doctors ON doctor_patient.doctor_id = doctors.id JOIN diagnoses ON doctor_patient.diagnosis_id = diagnoses.id; 
-
